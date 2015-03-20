@@ -35,6 +35,10 @@ module Omnibus
       /libutil\.so/,
       /linux-vdso.+/,
       /linux-gate\.so/,
+      /libffi\.so/,
+      /libffi\.so/,
+      /libffi\.so/,
+      /libffi\.so/,
     ].freeze
 
     ARCH_WHITELIST_LIBS = [
